@@ -1,0 +1,36 @@
+body {
+    scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('../images/ero-bg.jpg') center/cover no-repeat;
+}
+/* Skills */
+.skill-card {
+    background: #161b22;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s, border 0.3s;
+}
+.skill-card:hover {
+    transform: translateY(-5px);
+    border: 1px solid #00ffae;
+}
+
+/* Projects */
+.project-card {
+    transition: transform 0.3s, border 0.3s;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    border: 1px solid #00ffae;
+}
+.social-links a {
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #00ffae;
+}
